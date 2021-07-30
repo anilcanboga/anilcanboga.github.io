@@ -1,33 +1,33 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WebForm1.aspx.cs" Inherits="$safeprojectname$.WebForm1" %>
+
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <title>AB Software Engineer</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    
+    
+    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+  
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    
 
-<head>
-  <title>AB Software Engineer</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/style.css">
+    
+      <link rel="icon" type="image" href="logo1.jpg">
 
-  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
-  <link rel="stylesheet" href="fonts/icomoon/style.css">
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/animate.css">
-  <link rel="stylesheet" href="css/owl.carousel.min.css">
-  <link rel="stylesheet" href="css/owl.theme.default.min.css">
-  <link rel="stylesheet" href="css/bootstrap-datepicker.css">
-
-
-  <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
-
-  <link rel="stylesheet" href="css/aos.css">
-  <link rel="stylesheet" href="css/jquery.fancybox.min.css">
-
-
-  <link rel="stylesheet" href="css/style.css">
-
-  <link rel="icon" type="image" href="logo1.jpg">
-
-</head>
-
-<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+  </head>
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 
   <div class="site-wrap">
 
@@ -39,10 +39,10 @@
       </div>
       <div class="site-mobile-menu-body"></div>
     </div> <!-- .site-mobile-menu -->
-
-
+    
+    
     <div class="site-navbar-wrap">
-
+      
       <div class="site-navbar site-navbar-target js-sticky-header">
         <div class="container">
           <div class="row align-items-center">
@@ -53,16 +53,15 @@
               <nav class="site-navigation text-right" role="navigation">
                 <div class="container">
 
-                  <div class="d-inline-block d-lg-block ml-md-0 mr-auto py-3"><a href="#"
-                      class="site-menu-toggle js-menu-toggle text-black">
-                      <span class="icon-menu h3"></span> <span class="menu-text"></span>
-                    </a></div>
+                  <div class="d-inline-block d-lg-block ml-md-0 mr-auto py-3"><a href="#" class="site-menu-toggle js-menu-toggle text-black">
+                    <span class="icon-menu h3"></span> <span class="menu-text"></span>
+                  </a></div>
 
                   <ul class="site-menu main-menu js-clone-nav d-none d-lg-none">
                     <li><a href="#home-section" class="nav-link">Ana Sayfa</a></li>
                     <li><a href="#about-section" class="nav-link">Hakkımda</a></li>
                     <li><a href="#what-we-do-section" class="nav-link">Neler Yapabilirim</a></li>
-                    <!--                    <li><a href="#portfolio-section" class="nav-link">Portfolio</a></li>    -->
+<!--                    <li><a href="#portfolio-section" class="nav-link">Portfolio</a></li>    -->
                     <li><a href="#contact-section" class="nav-link">İletişim</a></li>
                   </ul>
                 </div>
@@ -72,18 +71,18 @@
         </div>
       </div>
     </div> <!-- END .site-navbar-wrap -->
-
+    
     <div class="site-blocks-cover" id="home-section">
       <div class="img-wrap">
         <div class="owl-carousel slide-one-item hero-slider">
           <div class="slide overlay">
-            <img src="images/headerphoto_1.jpg" alt="Image" class="img-fluid">
+            <img src="images/headerphoto_1.jpg" alt="Image" class="img-fluid">  
           </div>
           <div class="slide overlay">
-            <img src="images/headerphoto_2.jpg" alt="Image" class="img-fluid">
+            <img src="images/headerphoto_2.jpg" alt="Image" class="img-fluid">  
           </div>
           <div class="slide overlay">
-            <img src="images/headerphoto_3.jpg" alt="Image" class="img-fluid">
+            <img src="images/headerphoto_3.jpg" alt="Image" class="img-fluid">  
           </div>
         </div>
       </div>
@@ -95,8 +94,8 @@
                 <h1>Anılcan Boğa</h1>
               </div>
               <div class="text">
-                <p class="sub-text mb-5">Software Engineer</p>
-
+                <p class="sub-text mb-5">Software Engineer & Software Developer</p>
+                
               </div>
             </div>
           </div>
@@ -104,7 +103,7 @@
       </div>
     </div> <!-- END .site-blocks-cover -->
 
-
+    
 
     <div class="site-section" id="about-section">
       <div class="container">
@@ -115,15 +114,9 @@
           <div class="col-lg-5 ml-auto section-title">
             <span class="sub-title mb-2 d-block">BEN KİMİM</span>
             <h1 class="title text-primary mb-3">Hakkımda</h1>
-            <p class="mb-4">Beykent Üniversitesi Yazılım Mühendisliği (EN/TR) Bölümü'nden 2020 yılında mezun oldum. Şu
-              anda Yıldız Teknik Üniversitesi Bilgisayar Mühendisliği Bölümü'nde yüksek lisans yapıyorum. Eğitim hayatım
-              bana mesleğimin gerektirdiği alt yapıyı sağladı. Bir iş ortamında etkin ve hızlı olmaya her zaman çok
-              hevesli olmuşumdur ve pozisyonun gerektirdiği tüm sorumlulukları her zaman merak ve şevkle üstlenmişimdir.
-              Eğitimim boyunca araştırma, öz motivasyon, girişimcilik ve farklı beceriler edinme konularında kendimi
-              geliştirdim. Eğitim ve bireysel araştırmalarla yeni teknolojileri öğrenerek iş hayatımda kendimi
-              geliştirmeye çalışıyorum. </p>
+            <p class="mb-4">1997 İstanbul doğumluyum. Bilgisayarla çok küçük yaşlarda tanıştım. İnternete, web sitelere ve futbola merakım olduğu futbol ile ilgili ufak çaplı siteler yaptım. İnternetten ilk kazancım okulun sosyal medya sayfasını kurup 20.000 üye sayısını aşınca okulun dikkatini çekmesi ve okula sayfayı satarak ufakta olsa kazanç sağlamamla oldu. Lise eğitimimi Etiler Anadolu Lisesi'nde tamamladım. Daha sonra Lisans Eğitimim için Beykent Üniversitesi Yazılım Mühendisliğini kazandım. 5 Yıllık İngilizce Eğitim hayatımın son sınıfındayım. Eğitim hayatım mesleğimin gerektirdiği altyapıyı bana sağladı. Eğitim sürecim içerisinde araştırma, öz motivasyon, girişimcilik ve farklı yetenekler edinme noktasında kendimi geliştirdim. Eğitimlerle ve yaptığım bireysel araştırmalarla yeni teknolojiler öğrenip iş hayatımda kendimi geliştirmeye çalışıyorum. </p>
 
-            <!--
+
             <div class="d-flex">
               <ul class="list-unstyled ul-check success mr-5">
                 <li>C</li>
@@ -135,16 +128,15 @@
                 <li>PYTHON</li>
                 <li>MongoDB - NoSQL veritabanı</li>
               </ul>
-              -->
-            <!--            </div>
+<!--            </div>
             <p><a data-fancybox data-ratio="2" href="https://vimeo.com/326176805" class="d-flex align-items-center"><span class="icon-play_circle_outline h4 m-0 mr-2"></span> <span>Videoyu İzle</span></a></p>
           </div>
 -->
-          </div>
         </div>
-      </div> <!-- .END site-section -->
+      </div>
+    </div> <!-- .END site-section -->
 
-      <!--
+<!--
 
     <div class="site-section">
       <div class="container">
@@ -208,54 +200,51 @@
 
 -->
 
-      <div class="site-section bg-light" id="what-we-do-section">
-        <div class="container">
-          <div class="row mb-5">
-            <div class="col-lg-6 section-title">
-              <span class="sub-title mb-2 d-block">SİZİN İÇİN NE YAPABİLİRİM?</span>
-              <h2 class="title text-primary">Freelance yapabileceğim işler</h2>
-            </div>
+    <div class="site-section bg-light" id="what-we-do-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-lg-6 section-title">
+            <span class="sub-title mb-2 d-block">SİZİN İÇİN NE YAPABİLİRİM?</span>
+            <h2 class="title text-primary">Freelance yapabileceğim işler</h2>
           </div>
-          <div class="row">
-            <div class="col-lg-12 ml-auto">
-              <div class="row">
-                <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
-                  <div class="service h-100">
-                    <span class="icon-laptop_mac display-4 text-primary d-block mb-4"></span>
-                    <h3>Web Tasarımı</h3>
-                    <p>Mesleğimin bir parçası olan web tasarım, uygulama ve geliştirme konusunda tamamladığım her
-                      projede kendimi bir adım ileri taşımayı başardım. Proje bazında, müşterilerin doğrultusunda
-                      bireysel ve kurumsal web siteleri yapıyorum.</p>
-                    <!--   <p><a href="#" class="readmore">Learn more</a></p>   Daha fazla bilgi edin link-->
-                  </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12 ml-auto">
+            <div class="row">
+              <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
+                <div class="service h-100">
+                  <span class="icon-laptop_mac display-4 text-primary d-block mb-4"></span>
+                  <h3>Web Tasarımı</h3>
+                  <p>Mesleğimin bir parçası olan web tasarım, uygulama ve geliştirme konusunda tamamladığım her projede kendimi bir adım ileri taşımayı başardım. Proje bazında, müşterilerin doğrultusunda bireysel ve kurumsal web siteleri yapıyorum.</p>
+               <!--   <p><a href="#" class="readmore">Learn more</a></p>   Daha fazla bilgi edin link-->
                 </div>
-                <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
-                  <div class="service h-100">
-                    <span class="icon-shopping_basket display-4 text-primary d-block mb-4"></span>
-                    <h3>E-Ticaret</h3>
-                    <p>Kredi Kartı ile Ödeme destekli E-ticaret sitelerinizi WordPress tabanlı olarak kuruyor, isteğe
-                      bağlı olarak Seo ve Reklam danışmanlığı yapıyorum.</p>
-                    <!--   <p><a href="#" class="readmore">Learn more</a></p>   Daha fazla bilgi edin link-->
-                  </div>
-                </div>
-                <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
-                  <div class="service h-100">
-                    <span class="icon-mobile display-4 text-primary d-block mb-4"></span>
-                    <h3>Mobil Uygulamalar</h3>
-                    <p>Web sitenizdeki içerikleri kullanarak veya Facebook sayfanızı kullanarak mobil uygulama</p>
-                    <!--   <p><a href="#" class="readmore">Learn more</a></p>   Daha fazla bilgi edin link-->
-                  </div>
-                </div>
-
-
               </div>
+              <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
+                <div class="service h-100">
+                  <span class="icon-shopping_basket display-4 text-primary d-block mb-4"></span>
+                  <h3>E-Ticaret</h3>
+                  <p>Kredi Kartı ile Ödeme destekli E-ticaret sitelerinizi WordPress tabanlı olarak kuruyor, isteğe bağlı olarak Seo ve Reklam danışmanlığı yapıyorum.</p>
+                  <!--   <p><a href="#" class="readmore">Learn more</a></p>   Daha fazla bilgi edin link-->
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
+                <div class="service h-100">
+                  <span class="icon-mobile display-4 text-primary d-block mb-4"></span>
+                  <h3>Mobil Uygulamalar</h3>
+                  <p>Web sitenizdeki içerikleri kullanarak veya Facebook sayfanızı kullanarak mobil uygulama</p>
+                  <!--   <p><a href="#" class="readmore">Learn more</a></p>   Daha fazla bilgi edin link-->
+                </div>
+              </div>
+   
+              
             </div>
           </div>
         </div>
-      </div> <!-- END .site-section -->
+      </div>
+    </div> <!-- END .site-section -->
 
 
-      <!--    
+<!--    
     <div class="site-section" id="portfolio-section">
       <div class="container">
         <div class="row mb-5 ">
@@ -518,82 +507,79 @@
       </div>
     </div>
 
--->
+-->    
+          </div>
+          
+        </div>
+      </div>
     </div>
 
-  </div>
-  </div>
-  </div>
+    
+    
+    <div class="site-section" id="contact-section">
+      <div class="container">
+        <form action="" class="contact-form">
 
-
-
-  <div class="site-section" id="contact-section">
-    <div class="container">
-      <form action="" class="contact-form">
-
-        <div class="section-title text-center mb-5">
-          <span class="sub-title mb-2 d-block">İLETİŞİM</span>
-          <h2 class="title text-primary">Benimle İletişime Geçin</h2>
-        </div>
-
-        <div class="row mb-4">
-          <div class="col-md-6 mb-4 mb-md-0">
-            <input type="text" class="form-control" placeholder="Ad">
-          </div>
-          <div class="col-md-6">
-            <input type="text" class="form-control" placeholder="Soyad">
-          </div>
-        </div>
-
-        <div class="row mb-4">
-          <div class="col-12">
-            <input type="text" class="form-control" placeholder="Email">
-          </div>
-        </div>
-
-        <div class="row mb-4">
-          <div class="col-12">
-            <textarea class="form-control" name="" id="" cols="30" rows="10" placeholder="Mesajınız"></textarea>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-12">
-            <button type="submit" class="btn btn-primary btn-md">Mesajı Gönder</button>
-          </div>
-        </div>
-
-      </form>
-    </div>
-  </div> <!-- END .site-section -->
-
-
-
-  <footer class="site-footer">
-    <div class="container">
-      <div class="row text-center">
-        <div class="col-md-12">
-          <div class="mb-4">
-            <a href="https://www.facebook.com" target="_blank" class="pl-0 pr-3"><span class="icon-facebook"></span></a>
-            <a href="https://www.twitter.com" target="_blank" class="pl-3 pr-3"><span class="icon-twitter"></span></a>
-            <a href="#" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
-            <a href="#" class="pl-3 pr-3"><span class="icon-linkedin"></span></a>
+          <div class="section-title text-center mb-5">
+            <span class="sub-title mb-2 d-block">İLETİŞİM</span>
+            <h2 class="title text-primary">Benimle İletişime Geçin</h2>
           </div>
 
-          <p>
+          <div class="row mb-4">
+            <div class="col-md-6 mb-4 mb-md-0">
+              <input type="text" class="form-control" placeholder="Ad">
+            </div>
+            <div class="col-md-6">
+              <input type="text" class="form-control" placeholder="Soyad">
+            </div>
+          </div>
+
+          <div class="row mb-4">
+            <div class="col-12">
+              <input type="text" class="form-control" placeholder="Email">
+            </div>
+          </div>
+
+          <div class="row mb-4">
+            <div class="col-12">
+              <textarea class="form-control" name="" id="" cols="30" rows="10" placeholder="Mesajınız"></textarea>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-12">
+              <button type="submit" class="btn btn-primary btn-md">Mesajı Gönder</button>
+            </div>
+          </div>
+
+        </form>
+      </div>
+    </div> <!-- END .site-section -->
+  
+          
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-md-12">
+            <div class="mb-4">
+                <a href="https://www.facebook.com" target="_blank" class="pl-0 pr-3"><span class="icon-facebook"></span></a>
+                <a href="https://www.twitter.com" target="_blank" class="pl-3 pr-3"><span class="icon-twitter"></span></a>
+                <a href="#" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
+                <a href="#" class="pl-3 pr-3"><span class="icon-linkedin"></span></a>
+            </div>
+            
+            <p>
             <!-- Alt Kısım -->
             Copyright &copy;
-            <script>
-              document.write(new Date().getFullYear());
-            </script> Tüm Hakları Saklıdır | <i class="icon-right-open-1" aria-hidden="true"></i> by <a
-              href="https://anilcanboga.github.io/" target="_blank">AnlcnBoga</a>
+            <script>document.write(new Date().getFullYear());</script> Tüm Hakları Saklıdır | <i class="icon-right-open-1" aria-hidden="true"></i> by <a href="http://anilcanboga.site" target="_blank">AnlcnBoga</a>
             <!-- Alt Kısım -->
-          </p>
-
+            </p>
+          
+          </div>
+          
         </div>
-
-      </div>
-  </footer>
+    </footer>
   </div>
 
   <script src="js/jquery-3.3.1.min.js"></script>
@@ -604,11 +590,10 @@
   <script src="js/jquery.sticky.js"></script>
   <script src="js/stickyfill.min.js"></script>
   <script src="js/jquery.easing.1.3.js"></script>
-
+  
   <script src="js/jquery.fancybox.min.js"></script>
   <script src="js/main.js"></script>
 
-
-</body>
-
+     
+  </body>
 </html>
