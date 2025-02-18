@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+.bg-1 {
+    background: #161b22;
+}
+
+.bg-2 {
+    background: #1f242b;
+}
+
+.shadowed-box-border {
+    border-top: 1px solid #282c33;
+}
+
+.line-height-0 {
+    line-height: 0;
+}
+
+@media (min-width: 1024px) {
+    .lg\:vh-100-128 {
+        height: calc(100vh - 128px);
+        top: 64px
+    }
+}

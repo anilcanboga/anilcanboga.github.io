@@ -1,0 +1,221 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>HTML5Tema</Name>
+    <Description>&lt;No description available&gt;</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>HTML5Tema</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="HTML5Tema.csproj" File="HTML5Tema.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="false" TargetFileName=".DS_Store">.DS_Store</ProjectItem>
+      <Folder Name="css" TargetFolderName="css">
+        <ProjectItem ReplaceParameters="false" TargetFileName=".DS_Store">.DS_Store</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="animate.css">animate.css</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="aos.css">aos.css</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap-datepicker.css">bootstrap-datepicker.css</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap.min.css">bootstrap.min.css</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap.min.css.map">bootstrap.min.css.map</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="jquery-ui.css">jquery-ui.css</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="jquery.fancybox.min.css">jquery.fancybox.min.css</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="magnific-popup.css">magnific-popup.css</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="owl.carousel.min.css">owl.carousel.min.css</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="owl.theme.default.min.css">owl.theme.default.min.css</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="style.css">style.css</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="style.css.map">style.css.map</ProjectItem>
+      </Folder>
+      <Folder Name="fonts" TargetFolderName="fonts">
+        <ProjectItem ReplaceParameters="false" TargetFileName=".DS_Store">.DS_Store</ProjectItem>
+        <Folder Name="flaticon" TargetFolderName="flaticon">
+          <ProjectItem ReplaceParameters="true" TargetFileName="backup.txt">backup.txt</ProjectItem>
+          <Folder Name="font" TargetFolderName="font">
+            <ProjectItem ReplaceParameters="false" TargetFileName="_flaticon.scss">_flaticon.scss</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="flaticon.css">flaticon.css</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="Flaticon.eot">Flaticon.eot</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="flaticon.html">flaticon.html</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="Flaticon.svg">Flaticon.svg</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="Flaticon.ttf">Flaticon.ttf</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="Flaticon.woff">Flaticon.woff</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="Flaticon.woff2">Flaticon.woff2</ProjectItem>
+          </Folder>
+          <Folder Name="license" TargetFolderName="license">
+            <ProjectItem ReplaceParameters="false" TargetFileName="license.pdf">license.pdf</ProjectItem>
+          </Folder>
+        </Folder>
+        <Folder Name="icomoon" TargetFolderName="icomoon">
+          <Folder Name="demo-files" TargetFolderName="demo-files">
+            <ProjectItem ReplaceParameters="true" TargetFileName="demo.css">demo.css</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="demo.js">demo.js</ProjectItem>
+          </Folder>
+          <ProjectItem ReplaceParameters="true" TargetFileName="demo.html">demo.html</ProjectItem>
+          <Folder Name="fonts" TargetFolderName="fonts">
+            <ProjectItem ReplaceParameters="false" TargetFileName="icomoon.eot">icomoon.eot</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="icomoon.svg">icomoon.svg</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="icomoon.ttf">icomoon.ttf</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="icomoon.woff">icomoon.woff</ProjectItem>
+          </Folder>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Read Me.txt">Read Me.txt</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="selection.json">selection.json</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="style.css">style.css</ProjectItem>
+        </Folder>
+      </Folder>
+      <Folder Name="images" TargetFolderName="images">
+        <ProjectItem ReplaceParameters="false" TargetFileName=".DS_Store">.DS_Store</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="headerphoto_1.jpg">headerphoto_1.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="headerphoto_2.jpg">headerphoto_2.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="headerphoto_3.jpg">headerphoto_3.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="kişi_1.jpg">vstg0001.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="kişi_2.jpg">vstg0002.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="logo.png">logo.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="recent_works_1.jpg">recent_works_1.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="recent_works_2.jpg">recent_works_2.jpg</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="index.html">index.html</ProjectItem>
+      <Folder Name="js" TargetFolderName="js">
+        <ProjectItem ReplaceParameters="false" TargetFileName=".DS_Store">.DS_Store</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="aos.js">aos.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap-datepicker.min.js">bootstrap-datepicker.min.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap.min.js">bootstrap.min.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="isotope.pkgd.min.js">isotope.pkgd.min.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="jquery-3.3.1.min.js">jquery-3.3.1.min.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="jquery-migrate-3.0.1.min.js">jquery-migrate-3.0.1.min.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="jquery-ui.js">jquery-ui.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="jquery.countdown.min.js">jquery.countdown.min.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="jquery.easing.1.3.js">jquery.easing.1.3.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="jquery.fancybox.min.js">jquery.fancybox.min.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="jquery.magnific-popup.min.js">jquery.magnific-popup.min.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="jquery.stellar.js">jquery.stellar.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="jquery.sticky.js">jquery.sticky.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="main.js">main.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="owl.carousel.min.js">owl.carousel.min.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="popper.min.js">popper.min.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="slick.min.js">slick.min.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="stickyfill.min.js">stickyfill.min.js</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="false" TargetFileName="logo1.jpg">logo1.jpg</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="packages.config">packages.config</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="prepros-6.config">prepros-6.config</ProjectItem>
+      <Folder Name="Properties" TargetFolderName="Properties">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+      </Folder>
+      <Folder Name="scss" TargetFolderName="scss">
+        <ProjectItem ReplaceParameters="false" TargetFileName=".DS_Store">.DS_Store</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="_site-base.scss">_site-base.scss</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="_site-blocks.scss">_site-blocks.scss</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="_site-navbar.scss">_site-navbar.scss</ProjectItem>
+        <Folder Name="bootstrap" TargetFolderName="bootstrap">
+          <ProjectItem ReplaceParameters="false" TargetFileName=".DS_Store">.DS_Store</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="_alert.scss">_alert.scss</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="_badge.scss">_badge.scss</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="_breadcrumb.scss">_breadcrumb.scss</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="_button-group.scss">_button-group.scss</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="_buttons.scss">_buttons.scss</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="_card.scss">_card.scss</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="_carousel.scss">_carousel.scss</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="_close.scss">_close.scss</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="_code.scss">_code.scss</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="_custom-forms.scss">_custom-forms.scss</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="_dropdown.scss">_dropdown.scss</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="_forms.scss">_forms.scss</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="_functions.scss">_functions.scss</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="_grid.scss">_grid.scss</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="_images.scss">_images.scss</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="_input-group.scss">_input-group.scss</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="_jumbotron.scss">_jumbotron.scss</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="_list-group.scss">_list-group.scss</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="_media.scss">_media.scss</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="_mixins.scss">_mixins.scss</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="_modal.scss">_modal.scss</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="_nav.scss">_nav.scss</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="_navbar.scss">_navbar.scss</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="_pagination.scss">_pagination.scss</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="_popover.scss">_popover.scss</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="_print.scss">_print.scss</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="_progress.scss">_progress.scss</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="_reboot.scss">_reboot.scss</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="_root.scss">_root.scss</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="_spinners.scss">_spinners.scss</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="_tables.scss">_tables.scss</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="_toasts.scss">_toasts.scss</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="_tooltip.scss">_tooltip.scss</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="_transitions.scss">_transitions.scss</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="_type.scss">_type.scss</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="_utilities.scss">_utilities.scss</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="_variables.scss">_variables.scss</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="bootstrap-grid.scss">bootstrap-grid.scss</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="bootstrap-reboot.scss">bootstrap-reboot.scss</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="bootstrap.scss">bootstrap.scss</ProjectItem>
+          <Folder Name="mixins" TargetFolderName="mixins">
+            <ProjectItem ReplaceParameters="false" TargetFileName="_alert.scss">_alert.scss</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="_background-variant.scss">_background-variant.scss</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="_badge.scss">_badge.scss</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="_border-radius.scss">_border-radius.scss</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="_box-shadow.scss">_box-shadow.scss</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="_breakpoints.scss">_breakpoints.scss</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="_buttons.scss">_buttons.scss</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="_caret.scss">_caret.scss</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="_clearfix.scss">_clearfix.scss</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="_deprecate.scss">_deprecate.scss</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="_float.scss">_float.scss</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="_forms.scss">_forms.scss</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="_gradients.scss">_gradients.scss</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="_grid-framework.scss">_grid-framework.scss</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="_grid.scss">_grid.scss</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="_hover.scss">_hover.scss</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="_image.scss">_image.scss</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="_list-group.scss">_list-group.scss</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="_lists.scss">_lists.scss</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="_nav-divider.scss">_nav-divider.scss</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="_pagination.scss">_pagination.scss</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="_reset-text.scss">_reset-text.scss</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="_resize.scss">_resize.scss</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="_screen-reader.scss">_screen-reader.scss</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="_size.scss">_size.scss</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="_table-row.scss">_table-row.scss</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="_text-emphasis.scss">_text-emphasis.scss</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="_text-hide.scss">_text-hide.scss</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="_text-truncate.scss">_text-truncate.scss</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="_transition.scss">_transition.scss</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="_visibility.scss">_visibility.scss</ProjectItem>
+          </Folder>
+          <Folder Name="utilities" TargetFolderName="utilities">
+            <ProjectItem ReplaceParameters="false" TargetFileName="_align.scss">_align.scss</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="_background.scss">_background.scss</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="_borders.scss">_borders.scss</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="_clearfix.scss">_clearfix.scss</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="_display.scss">_display.scss</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="_embed.scss">_embed.scss</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="_flex.scss">_flex.scss</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="_float.scss">_float.scss</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="_overflow.scss">_overflow.scss</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="_position.scss">_position.scss</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="_screenreaders.scss">_screenreaders.scss</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="_shadows.scss">_shadows.scss</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="_sizing.scss">_sizing.scss</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="_spacing.scss">_spacing.scss</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="_stretched-link.scss">_stretched-link.scss</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="_text.scss">_text.scss</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="_visibility.scss">_visibility.scss</ProjectItem>
+          </Folder>
+          <Folder Name="vendor" TargetFolderName="vendor">
+            <ProjectItem ReplaceParameters="false" TargetFileName="_rfs.scss">_rfs.scss</ProjectItem>
+          </Folder>
+        </Folder>
+        <ProjectItem ReplaceParameters="false" TargetFileName="style.scss">style.scss</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Web.config">Web.config</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Web.Debug.config">Web.Debug.config</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Web.Release.config">Web.Release.config</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="WebForm1.aspx">WebForm1.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="WebForm1.aspx.cs">WebForm1.aspx.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="WebForm1.aspx.designer.cs">WebForm1.aspx.designer.cs</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
